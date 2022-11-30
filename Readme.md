@@ -5,7 +5,7 @@ O aplicativo é um Chatbot simples criado usando o React
 usando a entrada do usuário para enviar a mensagem para o bot
 usando o gancho react useState para definir o status da atividade do bot,
 Outras funções incluem
-
+*[]
      <li>
          Capturando a entrada do usuário
      </li>
