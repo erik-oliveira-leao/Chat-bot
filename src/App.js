@@ -249,7 +249,7 @@ function App() {
       const status = document.querySelector(".status");
       getBotMessage.innerText = "Escrevendo...";
       setTimeout(() => {
-        getBotMessage.innerText = "Diga em poucas palavras oque precisa, tipo hd, memoria, serviços";
+        getBotMessage.innerText = "Diga em poucas palavras, setup, programação, recuperação";
         status.innerText = "Ativo";
         status.style.color = "green";
         inputRef.value = ""; 
@@ -265,6 +265,20 @@ function App() {
       getBotMessage.innerText = "Escrevendo...";
       setTimeout(() => {
         getBotMessage.innerText = "Navegue até a guia E-Sports";
+        status.innerText = "Ativo";
+        status.style.color = "green";
+        inputRef.value = ""; 
+      }, 1000);
+    }
+    let prog = [
+      "programação|Programação|Quero desenvolver um app|app",
+    ]; 
+    let entrada17 = new RegExp(prog);
+    if (entrada17.test(document.querySelector("#input").value)) {
+      const status = document.querySelector(".status");
+      getBotMessage.innerText = "Escrevendo...";
+      setTimeout(() => {
+        getBotMessage.innerText = "Veio ao lugar certo, entre emcontato";
         status.innerText = "Ativo";
         status.style.color = "green";
         inputRef.value = ""; 
