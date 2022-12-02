@@ -278,7 +278,7 @@ function App() {
       const status = document.querySelector(".status");
       getBotMessage.innerText = "Escrevendo...";
       setTimeout(() => {
-        getBotMessage.innerText = "Veio ao lugar certo, entre emcontato";
+        getBotMessage.innerText = "Veio ao lugar certo, entre em contato";
         status.innerText = "Ativo";
         status.style.color = "green";
         inputRef.value = ""; 
